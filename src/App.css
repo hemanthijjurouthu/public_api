@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list {
+  padding: 20px;
+}
+
+.user-list-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list-item {
+  border: 1px solid #d9534f;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.user-list-item:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  color: #d9534f;
+}
+
+h2 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  color: #d9534f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
